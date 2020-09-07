@@ -63,7 +63,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mx-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">Bogotá
+                                    <a class="nav-link" href="index.html">Bogotá
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
@@ -77,7 +77,7 @@
                                     <a class="nav-link" href="bar.html">Barranquilla</a>
                                 </li>	
                                 <li class="nav-item">
-                                    <a class="nav-link" href="car.html">Cartagena</a>
+                                    <a class="nav-link active" href="car.html">Cartagena</a>
                                 </li>									
                         </div>
                     </nav>
@@ -87,9 +87,9 @@
             <div class="row tm-content-row tm-mt-big mt-2">
                 <div class="col-xl-8 col-lg-12 tm-md-12 tm-sm-12 tm-col">
                     <div class="bg-light tm-block h-100">
-                        <h2 class="tm-block-title text-center"><strong>Casos confirmados de SARS-CoV-2 en Bogotá</strong></h2>
+                        <h2 class="tm-block-title text-center"><strong>Casos confirmados de SARS-CoV-2 en Cartagena</strong></h2>
 								 <!-- <p><img src="img/b2.png" alt="Profile Image" width="700" height="350"><p> -->
-								<img src="img/bog1.png" alt="bog1" class="img-fluid">
+								<img src="img/car1.png" alt="car1" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-12 tm-md-12 tm-sm-12 tm-col">
@@ -100,7 +100,7 @@
                             </div>
                         </div>
                         <ol class="tm-list-group tm-list-group-alternate-color tm-list-group-pad-big">
-							 {% for item in cifras_bog %}
+							 {% for item in cifras_car %}
 							<li><a class="tm-list-group-item">
 							<strong>{{ item[1]}}: </strong>{{ item[0] }}</a></li>
                             {% endfor %}
@@ -114,11 +114,11 @@
 				<div class="col-12">
 							<div class="bg-light tm-block h-100 p-1 m-0">
 							<p>&nbsp;</p>
-							<h2 class="tm-block-title text-center"><strong>Evolución de SARS-CoV-2 en Bogotá</strong></h2>
-							<img src="img/bog2.png" alt="bog2" class="img-fluid">
-							<img src="img/bog3.png" alt="bog3" class="img-fluid">
-							<img src="img/bog4.png" alt="bog4" class="img-fluid">
-							<img src="img/bog5.png" alt="bo45" class="img-fluid">
+							<h2 class="tm-block-title text-center"><strong>Evolución de SARS-CoV-2 en Cartagena</strong></h2>
+							<img src="img/car2.png" alt="car2" class="img-fluid">
+							<img src="img/car3.png" alt="car3" class="img-fluid">
+							<img src="img/car4.png" alt="car4" class="img-fluid">
+							<img src="img/car5.png" alt="car5" class="img-fluid">
 							</div>				
 				</div>
 			</div>	
@@ -163,8 +163,8 @@
                                 <h2 class="tm-block-title text-center"><strong>Pronóstico de nuevos casos (7 días) </strong></h2>
                             </div>
                         </div>
-                        <ol class="tm-list-group tm-list-group-alternate-color tm-list-group-pad-big">
-							 {% for item in nue_bog %}
+                                               <ol class="tm-list-group tm-list-group-alternate-color tm-list-group-pad-big">
+							 {% for item in nue_car %}
 							<li><a class="tm-list-group-item">
 							{{ item }}</a></li>
                             {% endfor %}
@@ -177,7 +177,7 @@
                             </div>
                         </div>
                         <ol class="tm-list-group tm-list-group-alternate-color tm-list-group-pad-big">
-							 {% for item in rec_bog %}
+							 {% for item in rec_car %}
 							<li><a class="tm-list-group-item">
 							{{ item }}</a></li>
                             {% endfor %}
@@ -190,15 +190,15 @@
                             </div>
                         </div>
                         <ol class="tm-list-group tm-list-group-alternate-color tm-list-group-pad-big">
-							 {% for item in fal_bog %}
+							 {% for item in fal_car %}
 							<li><a class="tm-list-group-item">
 							{{ item }}</a></li>
                             {% endfor %}
                         </ol>
 						<p>&nbsp;</p>
-						<h6 class="text-justify"><strong>RMSE histórico confirmados: </strong> 239,7 </h6>
-						<h6 class="text-justify"><strong>RMSE histórico recuperados: </strong> 504,3 </h6>
-						<h6 class="text-justify"><strong>RMSE histórico fallecidos:  </strong> 6,5 </h6>
+						<h6 class="text-justify"><strong>RMSE histórico confirmados: </strong> 40,2 </h6>
+						<h6 class="text-justify"><strong>RMSE histórico recuperados: </strong> 50,9 </h6>
+						<h6 class="text-justify"><strong>RMSE histórico fallecidos:  </strong> 1,8 </h6>
                     </div>
                 </div>
             </div>
