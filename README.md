@@ -8,6 +8,6 @@
 3.   Wilmar Stiven Sanchez Muñoz
 4.   Laura María Yarce Gomez 
 
-En este proyecto se puede encontrar pronósticos de la enfermedad Covid-19 referentes a nuevos casos, casos activos, recuperados y fallecidos en cinco ciudades principales de Colombia: Bogotá, Barranquilla, Cartagena, Cali y Medellín, estas ciudades fueron escogidas por ser principalmente las que reportaban más casos. Los pronósticos se desarroll con base en la información publicada por el gobierno en www.datos.gov.com, información de uso público.
+En este proyecto se podrá encontrar pronósticos de la enfermedad SARS-Cov-2 referentes a nuevos casos, casos activos, recuperados y fallecidos en cinco ciudades principales de Colombia: Bogotá, Barranquilla, Cartagena, Cali y Medellín, estas ciudades fueron escogidas por ser principalmente las que reportaban más casos. Los pronósticos se desarrollaron con base en la información publicada por el gobierno en www.datos.gov.com, información de uso público. En cuanto a la metodología, se hizo un análisis a corto y largo plazo, haciendo uso de modelos ARIMA y modelos SIR, enfocando siempre el ejercicio a la razón de la situación. 
 
-Tambien se publicaron los resultados en: https://wssanchezm.github.io/Prueba/
+Los resultados se encuentran en la ejecución de este repo, y se publico además  en: https://wssanchezm.github.io/Prueba/
